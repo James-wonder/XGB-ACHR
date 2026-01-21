@@ -1,0 +1,13 @@
+# Core Data Science Libraries
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+
+# Machine Learning & Optimization
+xgboost
+optuna
+
+# Data Handling (Required for pd.read_excel)
+openpyxl
