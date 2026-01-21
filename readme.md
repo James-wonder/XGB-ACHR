@@ -24,7 +24,6 @@ Due to patient privacy laws and medical ethics restrictions, **this repository d
 
 ## 📂 Directory Structure
 
-```text
 XGB-ACHR/
 ├── implanted/          # [Placeholder] Stores data for the "Ossicular Implant" cohort
 ├── no implanted/       # [Placeholder] Stores data for the "No Implant" cohort
