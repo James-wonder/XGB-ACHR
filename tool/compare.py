@@ -6,8 +6,7 @@ colors = {
     'XGB-ACHR': "#898988",          # 深蓝色
     'Random Forest': "#79cb9b",           # 柔和蓝
     'MLP': "#ffc48a",     # 浅蓝色             # 橙色
-    'Liner Regression': "#547ac0",  # 绿色 (保留了您数据中的原始拼写)
-    'SVM': "#a369b0"                # 紫色
+    'Liner Regression': "#547ac0" # 绿色 (保留了您数据中的原始拼写)
 }
 
 BACKGROUND_COLOR ="#FFFFFF"
@@ -16,27 +15,27 @@ FONT_COLOR = '#333333'
 # --- 2. 数据准备 ---
 plot_data = {
     'ax1': {
-        'title': 'Without Ossicle Implanted',
-        'models': ['XGB-ACHR', 'Random Forest', 'MLP','Liner Regression','SVM'],
-        'values': [12.18, 12.21, 16.12, 13.53, 12.59],
+        'title': 'Without OCR',
+        'models': ['XGB-ACHR', 'Random Forest', 'MLP','Liner Regression'],
+        'values': [12.18, 12.21, 16.12, 13.53],
         'ylabel': 'Internal Validation Cohort'
     },
     'ax2': {
-        'title': 'With Ossicle Implanted',
-        'models': ['XGB-ACHR', 'Random Forest', 'MLP','Liner Regression','SVM'],
-        'values': [11.60, 10.87,14.81,11.76,11.13],
+        'title': 'With OCR',
+        'models': ['XGB-ACHR', 'Random Forest', 'MLP','Liner Regression'],
+        'values': [11.60, 10.87,14.81,11.76],
         'ylabel': None
     },
     'ax3': {
         'title': None,
-        'models': ['XGB-ACHR', 'Random Forest', 'MLP','Liner Regression','SVM'],
-        'values': [20.50,21.37,23.46,21.69,20.82],
+        'models': ['XGB-ACHR', 'Random Forest', 'MLP','Liner Regression'],
+        'values': [20.50,21.37,23.46,21.69],
         'ylabel': 'External Validation Cohort'
     },
     'ax4': {
         'title': None,
-        'models': ['XGB-ACHR', 'Random Forest', 'MLP','Liner Regression','SVM'],
-        'values': [18.03,17.91,23.55,17.28,15.88],
+        'models': ['XGB-ACHR', 'Random Forest', 'MLP','Liner Regression'],
+        'values': [18.03,17.91,23.55,17.28],
         'ylabel': None
     }
 }
