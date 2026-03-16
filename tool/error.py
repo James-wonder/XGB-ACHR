@@ -5,7 +5,7 @@ import seaborn as sns # 导入seaborn以使用其强大的调色板功能
 # --- Data Section ---
 
 # This data represents the percentage of samples with prediction error ≤ 15 dB
-
+plt.rcParams['font.sans-serif'] = 'Arial'
 data_internal_no_implant = [60, 72, 78, 82, 74, 74, 85]
 data_external_no_implant = [65, 50, 45, 45, 45, 30, 45]
 data_internal_with_implant = [74, 69, 74, 74, 74, 83, 69]
@@ -19,10 +19,10 @@ all_data = [
     data_external_with_implant
 ]
 cohort_labels = [
-    'Internal (Without Implant)',
-    'External (Without Implant)',
-    'Internal (With Implant)',
-    'External (With Implant)'
+    'Internal (Without OCR)',
+    'External (Without OCR)',
+    'Internal (With OCR)',
+    'External (With OCR)'
 ]
 
 # --- Plotting Section ---

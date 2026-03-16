@@ -499,6 +499,7 @@ colors = ['#d62728', '#ff7f0e', '#1f77b4', '#2ca02c']
 fig, axs = plt.subplots(3, 3, figsize=(18, 16))
 flat_axs = axs.flatten()
 
+plt.rcParams['font.sans-serif'] = 'Arial'
 # 设置全局字体大小，使其更像第二张图
 plt.rcParams.update({'font.size': 12})
 

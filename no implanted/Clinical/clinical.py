@@ -381,5 +381,6 @@ def run_clinical_only():
 
     print("\nAll tasks completed (Clinical Only).")
 
+
 if __name__ == "__main__":
     run_clinical_only()

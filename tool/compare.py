@@ -9,6 +9,7 @@ colors = {
     'Liner Regression': "#547ac0" # 绿色 (保留了您数据中的原始拼写)
 }
 
+plt.rcParams['font.sans-serif'] = 'Arial'
 BACKGROUND_COLOR ="#FFFFFF"
 FONT_COLOR = '#333333'
 
